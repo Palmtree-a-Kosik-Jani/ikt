@@ -1,0 +1,12 @@
+body{
+    background-image: url("háttérkép1.jpg");
+    background-size: cover;
+}
+.kiskepek{
+    width: 100%;
+    /*margin: auto*/
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
