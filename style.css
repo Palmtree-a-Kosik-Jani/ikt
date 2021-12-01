@@ -10,3 +10,19 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.container{
+    box-shadow: 5px 10px 25px white; 
+    background-size: cover;
+}
+.header{
+    color: white; 
+    height: 300px;
+    background-image: url("hódoltság.jpg")
+    background-size: cover;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    padding-right: 75px;
+    padding-top: 120px;
+    text-shadow: 5px 5px 10px black;
+}
