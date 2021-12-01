@@ -4,25 +4,26 @@ body{
 }
 .kiskepek{
     width: 100%;
-    /*margin: auto*/
-    border-radius: 20px;
-    box-shadow: 5px 5px 3px black;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .container{
-    box-shadow: 5px 5px 5px white; 
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    box-shadow: 5px 10px black;
 }
 .header{
     color: white; 
     height: 350px;
     background-image: url("hódoltság.jpg");
     background-size: cover;
-    font-size: 70px;
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: right;
-    padding-right: 75px;
-    padding-top: 120px;
+    padding-right: 50px;
+    padding-top: 100px;
     text-shadow: 5px 5px 10px black;
 }
