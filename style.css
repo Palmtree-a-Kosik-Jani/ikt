@@ -1,6 +1,7 @@
 body{
     background-image: url("háttérkép1.jpg");
     background-size: cover;
+    border-radius: 8px ;
 }
 .kiskepek{
     width: 100%;
@@ -14,11 +15,12 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     /*box-shadow: 5px 10px black;*/
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .header{
     color: white; 
-    height: 350px;
-    background-image: url("hódoltság.jpg");
+    height: 500px;
+    background-image: url("hódoltság.png");
     background-size: cover;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -26,4 +28,5 @@ body{
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+    border-radius: 8px;
 }
