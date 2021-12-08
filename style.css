@@ -41,3 +41,24 @@ body{
     border-radius: 8px;
     float: auto;
 }
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.fej{
+    color: white; 
+    height: 500px;
+    background-image: url("luxemburgifej.jpg");
+    background-size: cover;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 100px;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 12px;
+}
+p{
+    text-align: center;
+}
