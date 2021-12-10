@@ -51,9 +51,48 @@ footer{
     height: 500px;
     background-image: url("luxemburgifej.jpg");
     background-size: cover;
-    font-size: 60px;
+    font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: right;
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 100px;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 12px;
+}
+.fej1{
+    color: white; 
+    height: 500px;
+    background-image: url("hunyadi.png");
+    background-size: cover;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 100px;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 12px;
+}
+.fej2{
+    color: white; 
+    height: 500px;
+    background-image: url("hunyadi_torok.jpg");
+    background-size: cover;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 100px;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 12px;
+}
+.fej3{
+    color: white; 
+    height: 500px;
+    background-image: url("luxi_harcok.jpg");
+    background-size: cover;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
@@ -61,4 +100,30 @@ footer{
 }
 p{
     text-align: center;
+}
+.szoveg1{
+    color: white;
+    text-align: left;
+    margin: auto;
+}
+table, th, td {
+    border: 2px solid white;
+}
+.cim1{
+    color: white;
+    text-align: center;
+}
+.keret{
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    border: black;
+    background-color: white; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
