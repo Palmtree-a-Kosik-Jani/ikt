@@ -16,9 +16,8 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     /*box-shadow: 5px 10px black;*/
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.45);
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 
 }
 .header{
@@ -62,6 +61,8 @@ footer{
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .fej1{
     color: white; 
@@ -74,6 +75,8 @@ footer{
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .fej2{
     color: white; 
@@ -86,6 +89,8 @@ footer{
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .fej3{
     color: white; 
@@ -100,6 +105,8 @@ footer{
     margin: auto;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .mainsz{
     text-align: left;
@@ -114,30 +121,44 @@ p{
     text-align: left;
     margin: auto;
 }
-table, th, td 
-{
+table{
     margin: auto;
     padding: auto;
-    border: 2px solid white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.35) ;
-    border-bottom: 2px solid white; 
-    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-style: inset;
+    border-color: white;
+}
+th, td {
+    border: 1.5px solid white;
+    border-radius: 10px;
 }
 .cim1{
     color: white;
     text-align: center;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
 .button {
     border: black;
     background-color: white; color: black;
     box-shadow: 4px 4px 10px;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: black;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0px -12px;
     cursor: pointer;
-    border-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: right;
 }
