@@ -2,6 +2,7 @@ body{
     background-image: url("háttérkép1.jpg");
     background-size: cover;
     border-radius: 8px ;
+    background-attachment: fixed;
 }
 .kiskepek{
     width: 100%;
@@ -11,6 +12,14 @@ body{
     margin-bottom: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+.kiskepek:hover{
+    margin-right: 5px;
+    width: 102%;
+    display: block;
+    transition: .5s ease-in;
+    transition: .5s ease-out;
+    box-shadow: 10px 10px 10px black;
 }
 .container{
     background-repeat: no-repeat;
@@ -40,10 +49,11 @@ body{
     width: 50%;
 }
 .szoveg{
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.85);
     float: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: sticky;
 }
 footer{
     text-align: center;
@@ -62,6 +72,7 @@ footer{
     padding-right: 50px;
     padding-top: 100px;
     text-shadow: 5px 5px 10px black;
+
 }
 .fej1{
     color: white; 
@@ -157,6 +168,14 @@ th, td {
     border-bottom-right-radius: 15px;
     float: right;
 }
+.button:hover{
+    left: 50%;
+    margin-left: -240px;
+    font-size: 22px;
+    transition: .5s ease-in;
+    transition: .5s ease-out;
+    box-shadow: 10px 10px 10px black;
+}
 .alap{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -174,4 +193,15 @@ th, td {
     border-bottom-right-radius: 15px;
     float: right;
     overflow: auto;
+}
+.button1:hover{
+    left: 50%;
+    margin-left: -240px;
+    font-size: 22px;
+    transition: .5s ease-in;
+    transition: .5s ease-out;
+    box-shadow: 10px 10px 10px black;
+}
+.face{
+    
 }
