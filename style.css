@@ -132,6 +132,9 @@ table{
     padding: auto;
     background-color: rgba(0, 0, 0, 0.55);
     overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
 }
 th, td {
     overflow: hidden;
@@ -143,10 +146,11 @@ th, td {
     text-decoration-style: solid;
     text-decoration-color: white;
 }
-.mellek {
-    position: fixed;
+.mellek { 
+    position: absolute;
     left: 0;
-    bottom: 0;
+    margin-top: 35px;
+    bottom: auto;
     height: 5%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -155,6 +159,18 @@ th, td {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
+    /*position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;*/
 }
 .button {
     border: black;
@@ -194,7 +210,6 @@ th, td {
     border-bottom-right-radius: 15px;
     float: right;
     overflow: auto;
-    padding-bottom: 50px;
 }
 .button1:hover{
     left: 50%;
