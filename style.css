@@ -146,6 +146,13 @@ th, td {
     text-decoration-style: solid;
     text-decoration-color: white;
 }
+.cim2{
+    color: white;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+}
 .mellek { 
     position: absolute;
     left: 0;
