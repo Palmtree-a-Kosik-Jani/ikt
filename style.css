@@ -260,6 +260,15 @@ th, td {
     transition: .5s ease-out;
     box-shadow: 10px 10px 10px black;
 }
+.ici{
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal*/
 /*.modal {
     display: none; 
