@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,9 +23,6 @@
                              - Luxemburgi Zsigmond, németül: Sigismund von Luxemburg (Prága, 1368. február 14. – Znaim, 1437. december 9.) magyar, német és cseh király, német-római császár, a késő középkori Európa egyik legjelentősebb személyisége, a hercegi birtokáról elnevezett német eredetű Luxemburgi-ház tagja.</br>
                              - Nevéhez fűződik az utolsó összeurópai keresztes hadjárat megszervezése (1396), a nagy nyugati egyházszakadás felszámolása (1417) és a huszitizmus elleni harc megkezdése. Magyarországon 1395-ig első feleségével, Nagy Lajos király leányával, Máriával együtt ült a királyi trónon. Magyar királyként elsősorban Dalmácia elvesztésével, fényes visegrádi, budai és székesfehérvári építkezéseivel, illetve az Oszmán Birodalommal szembeni defenzívába vonulással, a végvárrendszer kiépítésével, valamint törvényeinek előremutató jellegével írta be magát a történelembe. Fiúörökös hiányában királyságaiban utódjául lánya férjét, a tehetséges Habsburg Albertet jelölte meg. Több mint ötven évig viselte a magyar koronát, ezzel a magyar történelem második leghosszabb ideig regnáló uralkodója.
                             </p>
-                        
-                        <img class="ici" src="luxi_thu.jpg" alt="Luxemburgi Zsigmond" title="Luxemburgi Zsigmond">
-                        <p class="cim1">Zsigmondot és címereit ábrázoló lap Thuróczi János krónikájában</p>
                         <h1 class="cim1">Trónra kerülése</h1>
                         <p class="szoveg1">
                              - Amikor Nagy Lajos meghalt, vele meghalt a magyar Anjou-ház utolsó férfisarja, ezért a két lánya, Hedvig és Mária örökölte a trónt. Hedvig a bárók akarata szerint Lengyelország uralkodója lett, Mária pedig Magyarország királynője, s ezzel megszűnt a két ország perszonáluniója. Szinte azonnal megindult a verseny Mária kezéért, hiszen aki a férje lesz, az lesz Magyarország uralkodója.</br>
@@ -39,8 +34,58 @@
                 </tr>
             </table>
         </div>
-        <a href="tori.html"><button type="button" class="button3" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a href="tori.html"><button type="button" class="button5" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a><button type="button" onclick="topFunction()" class="button6" class="w3-button w3-black"><i>Tetejére</i></button></a>
      </div>
+    <button id="myBtn">Források</button>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="forszov">
+            Források
+        </p>
+    </div>
+
+    </div>
+    <script>
+        var modal = document.getElementById("myModal");
+        
+        var btn = document.getElementById("myBtn");
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
     <footer class="mellek">
         <divs>

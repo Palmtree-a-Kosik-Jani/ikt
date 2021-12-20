@@ -46,8 +46,58 @@
             </table>
         </div>
         <a href="hunydi_torokharc1.html"><button type="button" class="button2" class="w3-button w3-black"><i>Tovább</i></button></a>
-        <a href="tori.html"><button type="button" class="button" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a href="tori.html"><button type="button" class="button4" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a><button type="button" onclick="topFunction()" class="button6" class="w3-button w3-black"><i>Tetejére</i></button></a>
      </div>
+     <button id="myBtn1">Források</button>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="forszov">
+            Források
+        </p>
+    </div>
+
+    </div>
+     <script>
+        var modal = document.getElementById("myModal");
+        
+        var btn = document.getElementById("myBtn1");
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
 </body>
     <footer class="mellek">
         <div>
