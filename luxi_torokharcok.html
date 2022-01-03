@@ -33,10 +33,6 @@
                                  - Zsigmond ötödik balkáni hadjárata 1395-ben. Zsigmond ismét személyesen vezette a hadat, ezúttal Havasalföldre. Legyőzte a törökbarát Vlad vajda csapatait, visszasegítette trónjára az 1394-ben elűzött Mircsa vajdát. A magyar hadak a Dunáig jutottak, ahol visszavették a törököktől Kis-Nikápolyt (bolgárul Holovnik, románul Turnu Magurele). Miután elvonult a magyar sereg, a törökök betörtek Krassó és Temes megyékbe, de Csáky Antal és Marcali Miklós temesi ispánok Csák mellett legyőzték őket.<br>
                                  - A sikeren felbuzdult Zsigmond ki akarta űzni a törököt egész Európából, de 1396-ban Nikápolynál döntő vereséget szenvedett. Ezután már csak a védekezésre összpontosított, és a telekkatonaságot létrehozva átszervezte a magyar haderőt. Ezzel új adót vezetett be: húsz jobbágytelek után egy (lovas)íjászt kellett kiállítania minden nemesnek. Ezen felül a király „ideiglenesen”, a török veszély megszűntéig felfüggesztette a nemesség hadi szolgálatának idejét szabályozó törvényt. Ez utóbbi rendelkezését később I. Albert az országgyűlés kívánságára eltörölte.Zsigmondot a telekkatonaság bevezetése ellenére sorra érték a kudarcok a törökök ellen, ezért a déli vidéken tagolt védelmi rendszert épített ki. Ennek legdélebbi részei az ütközőállamok voltak (például Havasalföld). Ez után következtek a déli határ mentén kialakított bánságok, s a harmadik vonalat az első végvárvonal adta, melynek központja Nándorfehérvár lett. 1428-ban sikertelenül próbálta meg visszafoglalni a törököktől Galambóc várát. A déli irányú küzdelmek alatt elveszítette Dalmáciát, ami ismét velencei fennhatóság alá került.<br>
                             </p>
-                            
-                            <img class="ici" src="luxi_cim.jpg" alt="Luxi" title="Luxi">
-                            <p class="cim1">Zsigmond király Albrecht Dürer festményén (1509 körül)</p>
-                            
                             <h2 class="cim2">Német Királyi Cím</h2>
                             <p class="szoveg1">
                                  - Zsigmondot 1410-ben német királlyá választották . Erre Rupert király 1410-ben bekövetkezett halála adott alkalmat, akit a választófejedelmek 1400-ban a letett Vencel, Zsigmond bátyja helyére választottak meg. Akkor a cím kikerült a Luxemburgiak birtokából. A választás alkalmával Vencel, mint cseh király, a kölni érsek, a mainzi érsek, a szász választó, illetve Zsigmond unokatestvére, Jodok morva őrgróf, Brandenburg tényleges és jogszerű ura Jodokot támogatták. Zsigmond mellett csak a trieri érsek és rajnai palotagróf (Rupert fia) állottak. 1410. szeptember 20-án, amikor még csak négy választófejedelem volt a helyszínen, Zsigmond puccsszerűen saját magát nyilvánította német királlyá. A brandenburgi választó szavazatát ő adta le saját magára. A brandenburgi tartományt azonban 1388-ban elzálogosította Jodoknak azzal a kitétellel, hogy ha öt éven belül nem váltja vissza, akkor az a szavazattal együtt végleg Jodokot illeti. 1397-ben ezen jogában Vencel, még mint német király, meg is erősítette Jodokot.<br>
@@ -48,8 +44,58 @@
             </div>
         </div>
         <a href="luxi_torokharcok1.html"><button type="button" class="button2" class="w3-button w3-black"><i>Tovább</i></button></a>
-        <a href="tori.html"><button type="button" class="button" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a href="tori.html"><button type="button" class="button4" class="w3-button w3-black"><i>Vissza</i></button></a>
+        <a><button type="button" onclick="topFunction()" class="button6" class="w3-button w3-black"><i>Tetejére</i></button></a>
      </div>
+     <button id="myBtn1">Források</button>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="forszov">
+            Források
+        </p>
+    </div>
+
+    </div>
+     <script>
+        var modal = document.getElementById("myModal");
+        
+        var btn = document.getElementById("myBtn1");
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
     <footer class="mellek">
         <div>
