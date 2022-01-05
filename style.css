@@ -153,7 +153,7 @@ th, td {
     text-decoration-style: solid;
     text-decoration-color: white;
 }
-.mellek { 
+.mellek{ 
     position: absolute;
     left: 0;
     margin-top: 35px;
@@ -165,7 +165,19 @@ th, td {
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
+}
+.mellek1{ 
+    position: absolute;
+    left: 0;
+    margin-top: 35px;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .button {
     position: relative;
